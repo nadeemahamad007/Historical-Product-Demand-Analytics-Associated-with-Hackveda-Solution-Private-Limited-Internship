@@ -55,8 +55,20 @@ historical-product-demand-analytics/
 ├── app.py
 ├── Historical Product Demand.csv
 ├── assets/
+<<<<<<< HEAD
 │   ├── dashboard-overview.png
 │   └── replenishment-planning.png
+=======
+│   ├── 01.png
+│   ├── 02.png
+│   ├── 03.png
+│   ├── 04.png
+│   ├── 05.png
+│   ├── 06.png
+│   ├── 07.png
+│   ├── 08.png
+│   └── 09.png
+>>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
 ├── requirements.txt
 └── README.md
 ```
@@ -102,6 +114,7 @@ streamlit run app.py
 
 The dashboard should open in your browser. Keep `Historical Product Demand.csv` in the same folder as `app.py`, or upload a CSV through the sidebar.
 
+<<<<<<< HEAD
 ## Dashboard Features
 
 ### Demand Analytics
@@ -117,6 +130,120 @@ The dashboard should open in your browser. Keep `Historical Product Demand.csv` 
 Select a product and warehouse to estimate inventory replenishment quantities. The dashboard allows you to adjust supplier lead time, review period, target service level, and current stock.
 
 The resulting plan can be downloaded as a CSV file for further analysis.
+=======
+## 📸 Dashboard Preview 
+
+The **Historical Product Demand — Inventory Planning Studio** dashboard
+provides interactive visualizations of historical demand, warehouse-level
+performance, top-selling products, and inventory replenishment planning.
+
+### 1. Main Dashboard — Historical Demand Overview
+
+The main dashboard displays key performance indicators, including demand
+records, total demand, number of products, and warehouses. It also provides
+an overview of demand trends over time.
+
+<p align="center">
+  <img src="assets/01.png"
+       alt="Historical Product Demand dashboard overview"
+       width="100%">
+</p>
+
+### 2. Demand by Warehouse and Top 15 Products
+
+Compare total demand across warehouses and identify the 15 products with
+the highest historical demand.
+
+<p align="center">
+  <img src="assets/02.png"
+       alt="Demand by warehouse and top 15 products"
+       width="100%">
+</p>
+
+### 3. Inventory Planning Assumptions
+
+Configure supplier lead time, review period, target service level, and
+current stock to calculate replenishment estimates.
+
+<p align="center">
+  <img src="assets/03.png"
+       alt="Inventory planning assumptions"
+       width="45%">
+</p>
+
+### 4. Product and Warehouse Selection
+
+Select a specific product and warehouse to analyze its historical demand
+and generate replenishment estimates.
+
+<p align="center">
+  <img src="assets/04.png"
+       alt="Product and warehouse selection"
+       width="100%">
+</p>
+
+### 5. Data Quality and Methodology
+
+The dashboard documents data-cleaning decisions, calculation methods,
+planning assumptions, and limitations of the replenishment estimates.
+
+<p align="center">
+  <img src="assets/05.png"
+       alt="Data quality notes and methodology"
+       width="100%">
+</p>
+
+### 6. Replenishment Planning Results
+
+View estimated average daily demand, safety stock, reorder point, and
+suggested order quantity for the selected product and warehouse. The
+results can also be exported as a CSV file.
+
+<p align="center">
+  <img src="assets/06.png"
+       alt="Replenishment planning results"
+       width="100%">
+</p>
+
+### 7. Top Products by Historical Demand
+
+A horizontal bar chart highlights the products with the highest
+aggregated demand.
+
+<p align="center">
+  <img src="assets/07.png"
+       alt="Top products by historical demand"
+       width="100%">
+</p>
+
+### 8. Warehouse-Level Demand Analysis
+
+A bar chart compares the total historical demand recorded for each
+warehouse.
+
+<p align="center">
+  <img src="assets/08.png"
+       alt="Historical demand by warehouse"
+       width="100%">
+</p>
+
+### 9. Monthly Demand Trend
+
+Explore how historical demand changes over time using a monthly
+demand trend visualization.
+
+<p align="center">
+  <img src="assets/09.png"
+       alt="Monthly historical demand trend"
+       width="100%">
+</p>
+
+---
+
+**Note:** Replenishment values are estimates based on historical demand
+and user-defined assumptions. They are not a demand forecast or a
+globally cost-optimized inventory plan.
+>>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
 
 ## Methodology
 
@@ -130,6 +257,7 @@ For a selected product and warehouse, the application aggregates recorded order 
 
 The service-level z-score uses a normal-demand approximation. Dates without recorded demand within a product/warehouse's observed date span are treated as zero-demand days for the daily-series calculation.
 
+<<<<<<< HEAD
 ## Dashboard Preview
 
 ### Dashboard — Demand Analytics Overview
@@ -146,6 +274,8 @@ Review demand-based inventory estimates, including safety stock, reorder point, 
 
 *The images above are static dashboard preview visuals. Run the Streamlit application to use the interactive filters and planning controls.*
 
+=======
+>>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
 ## Important Limitations
 
 - The dataset records historical order demand; it does not provide a future-demand forecast.
@@ -169,4 +299,8 @@ Review demand-based inventory estimates, including safety stock, reorder point, 
 
 **Nadeem Ahamad**
 
+<<<<<<< HEAD
 A data analytics and inventory-planning portfolio project built with Python, Pandas, NumPy, Plotly, and Streamlit.
+=======
+Data Analytics Project associated with **Hackveda Solutions Private Limited Internship**, focused on **Historical Product Demand Analysis and Inventory Planning**, involving data cleaning, exploratory data analysis, warehouse-wise demand analysis, product demand analysis, and inventory replenishment planning using Python, Pandas, NumPy, Plotly, and Streamlit.
+>>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
