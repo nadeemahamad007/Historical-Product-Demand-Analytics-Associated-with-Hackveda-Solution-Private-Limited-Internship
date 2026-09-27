@@ -112,7 +112,7 @@ streamlit run app.py
 
 The dashboard should open in your browser. Keep `Historical Product Demand.csv` in the same folder as `app.py`, or upload a CSV through the sidebar.
 
-<<<<<<< HEAD
+
 ## Dashboard Features
 
 ### Demand Analytics
@@ -241,7 +241,7 @@ demand trend visualization.
 **Note:** Replenishment values are estimates based on historical demand
 and user-defined assumptions. They are not a demand forecast or a
 globally cost-optimized inventory plan.
->>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
+
 
 ## Methodology
 
@@ -255,25 +255,6 @@ For a selected product and warehouse, the application aggregates recorded order 
 
 The service-level z-score uses a normal-demand approximation. Dates without recorded demand within a product/warehouse's observed date span are treated as zero-demand days for the daily-series calculation.
 
-<<<<<<< HEAD
-## Dashboard Preview
-
-### Dashboard — Demand Analytics Overview
-
-Explore overall demand, monthly trends, warehouse comparisons, and the products with the highest recorded demand.
-
-![Historical Product Demand Dashboard — Overview](assets/dashboard-overview.png)
-
-### Dashboard — Replenishment Planning
-
-Review demand-based inventory estimates, including safety stock, reorder point, and suggested order quantity.
-
-![Historical Product Demand Dashboard — Replenishment Planning](assets/replenishment-planning.png)
-
-*The images above are static dashboard preview visuals. Run the Streamlit application to use the interactive filters and planning controls.*
-
-=======
->>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
 ## Important Limitations
 
 - The dataset records historical order demand; it does not provide a future-demand forecast.
@@ -297,8 +278,5 @@ Review demand-based inventory estimates, including safety stock, reorder point, 
 
 **Nadeem Ahamad**
 
-<<<<<<< HEAD
-A data analytics and inventory-planning portfolio project built with Python, Pandas, NumPy, Plotly, and Streamlit.
-=======
 Data Analytics Project associated with **Hackveda Solutions Private Limited Internship**, focused on **Historical Product Demand Analysis and Inventory Planning**, involving data cleaning, exploratory data analysis, warehouse-wise demand analysis, product demand analysis, and inventory replenishment planning using Python, Pandas, NumPy, Plotly, and Streamlit.
->>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
+
