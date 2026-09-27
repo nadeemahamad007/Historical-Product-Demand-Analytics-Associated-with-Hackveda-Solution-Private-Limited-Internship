@@ -53,6 +53,8 @@ The application parses dates and demand values, then excludes records with missi
 ```text
 historical-product-demand-analytics/
 ├── app.py
+├── notebooks/
+│   └──Prescriptive_Analytics_Inventory_Optimization.ipynb
 ├── data/
 │   └──Historical Product Demand.csv
 ├── assets/
