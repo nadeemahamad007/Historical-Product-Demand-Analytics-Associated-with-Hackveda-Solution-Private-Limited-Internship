@@ -122,13 +122,7 @@ The dashboard should open in your browser. Keep `Historical Product Demand.csv` 
 - Explore monthly demand trends
 - Compare demand across warehouses
 - Inspect the top 15 products by recorded demand
-
-### Inventory Planning
-
-Select a product and warehouse to estimate inventory replenishment quantities. The dashboard allows you to adjust supplier lead time, review period, target service level, and current stock.
-
-The resulting plan can be downloaded as a CSV file for further analysis.
-=======
+- 
 ## 📸 Dashboard Preview 
 
 The **Historical Product Demand — Inventory Planning Studio** dashboard
@@ -242,7 +236,11 @@ demand trend visualization.
 and user-defined assumptions. They are not a demand forecast or a
 globally cost-optimized inventory plan.
 
+### Inventory Planning
 
+Select a product and warehouse to estimate inventory replenishment quantities. The dashboard allows you to adjust supplier lead time, review period, target service level, and current stock.
+
+The resulting plan can be downloaded as a CSV file for further analysis.
 ## Methodology
 
 For a selected product and warehouse, the application aggregates recorded order quantities into a daily demand series. It then calculates the following estimates:
