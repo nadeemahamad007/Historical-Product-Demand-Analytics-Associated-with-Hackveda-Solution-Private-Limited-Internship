@@ -53,22 +53,18 @@ The application parses dates and demand values, then excludes records with missi
 ```text
 historical-product-demand-analytics/
 ├── app.py
-├── Historical Product Demand.csv
+├── data/
+│   └──Historical Product Demand.csv
 ├── assets/
-<<<<<<< HEAD
-│   ├── dashboard-overview.png
-│   └── replenishment-planning.png
-=======
-│   ├── 01.png
-│   ├── 02.png
-│   ├── 03.png
-│   ├── 04.png
-│   ├── 05.png
-│   ├── 06.png
-│   ├── 07.png
-│   ├── 08.png
-│   └── 09.png
->>>>>>> 5cbb76659af2737ebf23f8156ef8886cc219c609
+│   └──01.png
+│   └──02.png
+│   └──03.png
+│   └──04.png
+│   └──05.png
+│   └──06.png
+│   └──07.png
+│   └──08.png
+│   └──09.png
 ├── requirements.txt
 └── README.md
 ```
